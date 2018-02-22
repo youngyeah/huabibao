@@ -1,0 +1,59 @@
+.container {
+
+}
+.container .main {
+    margin-top: 30px;
+    width: 100%;
+    margin: 0 auto;
+    background: url("../img/bg.jpg") repeat-x scroll;
+}
+.container .main .content{
+    width: 80%;
+    margin: 0 auto;
+}
+.container .main .crumb {
+    font-size: 18px;
+    color: #666;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.container .main .left {
+    width: 20%;
+    float: left;
+    background-color: #fff;
+    margin-right: 50px;
+}
+.container .main .left div>p {
+    margin-left: 20px;
+    font-size: 18px;
+    height: 30px;
+    line-height: 20px;
+    font-weight: bold;
+    width: 80%;
+    border-bottom: 1px solid #888888;
+}
+.container .main .left div>div>p {
+    font-size: 14px;
+    font-weight: normal;
+}
+.container .main .left .title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.container .main .left ul li{
+    line-height: 50px;
+    list-style: none;
+}
+.container .main .right {
+    width: 70%;
+    display: inline-block;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container .main .right div p{
+    font-size: 14px;
+    text-indent: 2em;
+    line-height: 25px;
+}

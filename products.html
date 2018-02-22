@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>产品展示</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/pagination.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery.pagination.js"></script>
+    <script src="js/swiper-3.4.2.jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="top div-box"></div>
+        <div class="main div-box">
+            <div class="content">
+                <div class="crumb">
+                    <img src="img/home.jpg"/>
+                    <span>首页</span>
+                    <span>&gt;</span>
+                    <span>关于我们</span>
+                </div>
+                <div class="left clearfix">
+                    <div>
+                        <p>华碧宝壁布</p>
+                        <ul>
+                            <li class="active">关于我们</li>
+                            <li>产品展示</li>
+                            <li>工程案例</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>联系方式</p>
+                        <div>
+                            <img src="img/tel.jpg" width="40"/>
+                            <span>联系电话</span>
+                            <p>17715801315</p>
+                        </div>
+                        <div>
+                            <img src="img/mail.jpg" width="28"/>
+                            <span>邮箱</span>
+                            <p>283588258@qq.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right clearfix">
+                    <div>
+                        <h3>产品展示</h3>
+                        <div class="M-box"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('.M-box').pagination({
+            coping:true,
+            homePage:'首页',
+            endPage:'末页',
+            prevContent:'上页',
+            nextContent:'下页'
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    background: url("../img/body_Bg.jpg") scroll;
+}
+.div-box {
+    width: 100%;
+    min-width: 1200px;
+    max-width: 1418px;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+}
+.top {
+    margin-top: 10px;
+    background: #fff;
+}
+.logo {
+    float: left;
+}
+.navigation {
+    float: right;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+.navigation ul li {
+    list-style: none;
+    margin-left: 60px;
+    float: left;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.navigation ul li:hover {
+    background-color: #f18400;
+}
+.navigation ul li a{
+    color: #666;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+}
