@@ -3,6 +3,7 @@
     position: relative;
     text-align: center;
     zoom: 1;
+    margin-left: 50px;
 }
 .M-box:before,.M-box:after{
     content:"";

@@ -18,6 +18,12 @@
     margin-bottom: 20px;
     width: 100%;
 }
+.container .main .crumb {
+    font-size: 12px;
+    color: #666;
+    margin: 10px 0px 10px 10px;
+    width: 100%;
+}
 .container .main .left {
     width: 20%;
     float: left;
@@ -41,9 +47,25 @@
     font-size: 30px;
     font-weight: bold;
 }
-.container .main .left ul li{
-    line-height: 50px;
-    list-style: none;
+.container .main .left .left-navigation {
+    box-sizing: border-box;
+}
+.container .main .left .left-navigation span{
+    display: block;
+    width: 200px;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    font-size: 15px;
+}
+.container .main .left .left-navigation span:hover{
+    background-color: #004c92;
+    color: #fff;
+    cursor: pointer;
+}
+.container .main .left .left-navigation .left-hover {
+    background-color: #004c92;
+    color: #fff;
 }
 .container .main .right {
     width: 70%;

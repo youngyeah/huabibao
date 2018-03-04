@@ -5,17 +5,16 @@
     margin-top: 30px;
     width: 100%;
     margin: 0 auto;
-    background: url("../img/bg.jpg") repeat-x scroll;
+    background: url("../img/bg.jpg") no-repeat bottom #f6f9e9;
 }
 .container .main .content{
     width: 80%;
     margin: 0 auto;
 }
 .container .main .crumb {
-    font-size: 18px;
+    font-size: 12px;
     color: #666;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    margin: 10px 0px 10px 10px;
     width: 100%;
 }
 .container .main .left {
@@ -41,16 +40,45 @@
     font-size: 30px;
     font-weight: bold;
 }
-.container .main .left ul li{
-    line-height: 50px;
-    list-style: none;
+.container .main .left .left-navigation {
+    box-sizing: border-box;
 }
+.container .main .left .left-navigation span{
+    display: block;
+    width: 200px;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    font-size: 15px;
+}
+.container .main .left .left-navigation span:hover{
+    background-color: #004c92;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
 .container .main .right {
     width: 70%;
     display: inline-block;
     background-color: #fff;
     padding-left: 15px;
     padding-right: 15px;
+}
+.container .main .right .product {
+    margin-left: 50px;
+}
+.container .main .right .product>div {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container .main .right .product>div>img {
+    display: block;
+    width: 200px;
 }
 .container .main .right div p{
     font-size: 14px;
