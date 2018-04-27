@@ -1,0 +1,86 @@
+.container {
+
+}
+.container .main {
+    margin-top: 30px;
+    width: 100%;
+    margin: 0 auto;
+    background: url("../img/bg.jpg") repeat-x scroll;
+}
+.container .main .content{
+    width: 80%;
+    margin: 0 auto;
+}
+.container .main .crumb {
+    font-size: 18px;
+    color: #666;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.container .main .crumb {
+    font-size: 12px;
+    color: #666;
+    margin: 10px 0px 10px 10px;
+    width: 100%;
+}
+.container .main .left {
+    width: 20%;
+    float: left;
+    background-color: #fff;
+    margin-right: 50px;
+}
+.container .main .left div>p {
+    margin-left: 20px;
+    font-size: 18px;
+    height: 30px;
+    line-height: 20px;
+    font-weight: bold;
+    width: 80%;
+    border-bottom: 1px solid #888888;
+}
+.container .main .left div>div>p {
+    font-size: 14px;
+    font-weight: normal;
+}
+.container .main .left .title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.container .main .left .left-navigation {
+    box-sizing: border-box;
+}
+.container .main .left .left-navigation span{
+    display: block;
+    width: 200px;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    font-size: 15px;
+}
+.container .main .left .left-navigation span:hover{
+    background-color: #004c92;
+    color: #fff;
+    cursor: pointer;
+}
+.container .main .left .left-navigation .left-hover {
+    background-color: #004c92;
+    color: #fff;
+}
+.container .main .right {
+    width: 70%;
+    display: inline-block;
+    background-color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container .main .right div {
+    float: left;
+    margin-right: 20px;
+}
+.container .main .right div div#allmap{
+    width: 400px;
+    height: 350px;
+    padding: 10px;
+    border: 1px solid darkgrey;
+}

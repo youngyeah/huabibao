@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/swiper-3.4.2.jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="top div-box"></div>
+        <div class="main div-box">
+            <div class="content">
+                <div class="crumb">
+                    <img src="img/home.jpg"/>
+                    <span>首页</span>
+                    <span>&gt;</span>
+                    <span>工程案例</span>
+                </div>
+                <div class="left clearfix">
+                    <div>
+                        <p>华碧宝壁布</p>
+                        <div class="left-navigation">
+                            <span><a>关于我们</a></span>
+                            <span><a>产品展示</a></span>
+                            <span class="left-hover"><a>工程案例</a></span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>联系方式</p>
+                        <div>
+                            <img src="img/tel.jpg" width="40" style="margin-left: 15px"/>
+                            <span>联系电话</span>
+                            <p>17715801315</p>
+                        </div>
+                        <div>
+                            <img src="img/mail.jpg" width="28" style="margin-left: 21px"/>
+                            <span>邮箱</span>
+                            <p>283588258@qq.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right clearfix">
+                    <div>
+                        <h3>联系我们</h3>
+                        <div id="allmap">
+
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=y0ZmYjM4G0kAUiMscYnM2Gwu4SaZkYpa"></script>
+    <script>
+        // 百度地图API功能
+        var map = new BMap.Map("allmap");    // 创建Map实例
+        var point = new BMap.Point(119.960003, 31.952729);
+        map.centerAndZoom(point, 17);  // 初始化地图,设置中心点坐标和地图级别
+        var marker = new BMap.Marker(point);        // 创建标注
+        map.addOverlay(marker);                     // 将标注添加到地图中
+        map.enableScrollWheelZoom(true);
+        //添加地图类型控件
+        map.addControl(new BMap.NavigationControl({
+            type: BMAP_NAVIGATION_CONTROL_LARGE
+        }));
+        map.setCurrentCity("北京");          // 设置地图显示的城市 此项是必须设置的
+    </script>
+</body>
+</html>
