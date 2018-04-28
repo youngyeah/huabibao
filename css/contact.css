@@ -24,49 +24,7 @@
     margin: 10px 0px 10px 10px;
     width: 100%;
 }
-.container .main .left {
-    width: 20%;
-    float: left;
-    background-color: #fff;
-    margin-right: 50px;
-}
-.container .main .left div>p {
-    margin-left: 20px;
-    font-size: 18px;
-    height: 30px;
-    line-height: 20px;
-    font-weight: bold;
-    width: 80%;
-    border-bottom: 1px solid #888888;
-}
-.container .main .left div>div>p {
-    font-size: 14px;
-    font-weight: normal;
-}
-.container .main .left .title{
-    font-size: 30px;
-    font-weight: bold;
-}
-.container .main .left .left-navigation {
-    box-sizing: border-box;
-}
-.container .main .left .left-navigation span{
-    display: block;
-    width: 200px;
-    line-height: 40px;
-    box-sizing: border-box;
-    padding-left: 40px;
-    font-size: 15px;
-}
-.container .main .left .left-navigation span:hover{
-    background-color: #004c92;
-    color: #fff;
-    cursor: pointer;
-}
-.container .main .left .left-navigation .left-hover {
-    background-color: #004c92;
-    color: #fff;
-}
+
 .container .main .right {
     width: 70%;
     display: inline-block;
